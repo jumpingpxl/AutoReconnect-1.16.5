@@ -1,6 +1,9 @@
 {
-  "name": "Example Addon",
   "uuid": "%uuid%",
-  "mainClass": "com.example.addon.ExampleAddon",
-  "transformerClass": "com.example.addon.ExampleAddonTransformer"
+  "name": "AutoReconnect",
+  "mainClass": "de.jumpingpxl.labymod.autoreconnect.AutoReconnect",
+  "author": "JumpingPxl",
+  "description": "Automatically reconnects to the server you got disconnected from",
+  "version": 4,
+  "category": 2
 }
