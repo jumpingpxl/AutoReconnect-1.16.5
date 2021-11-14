@@ -36,10 +36,7 @@ public class GuiOpenListener {
 				ITextComponent title = (ITextComponent) autoReconnect.findField(Screen.class,
 						TITLE_MAPPINGS).get(disconnectedScreen);
 				screen = new ModDisconnectedScreen(autoReconnect, settings, disconnectedScreen, title);
-			} catch (IllegalStateException e) {
-				//screen = new GuiRefreshSession(new ModGuiMultiplayer(null));
-				e.printStackTrace();
-			} catch (IllegalAccessException e) {
+			} catch (IllegalStateException | IllegalAccessException e) {
 				e.printStackTrace();
 			}
 
