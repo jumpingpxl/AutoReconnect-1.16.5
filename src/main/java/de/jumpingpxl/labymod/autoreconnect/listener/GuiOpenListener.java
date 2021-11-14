@@ -5,8 +5,6 @@ import de.jumpingpxl.labymod.autoreconnect.util.ModDisconnectedScreen;
 import de.jumpingpxl.labymod.autoreconnect.util.Settings;
 import net.labymod.api.event.Subscribe;
 import net.labymod.api.event.events.client.gui.screen.ScreenOpenEvent;
-import net.labymod.gui.GuiRefreshSession;
-import net.labymod.gui.ModGuiMultiplayer;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screen.ConnectingScreen;
 import net.minecraft.client.gui.screen.DisconnectedScreen;
