@@ -39,7 +39,8 @@ public class GuiOpenListener {
 						TITLE_MAPPINGS).get(disconnectedScreen);
 				screen = new ModDisconnectedScreen(autoReconnect, settings, disconnectedScreen, title);
 			} catch (IllegalStateException e) {
-				screen = new GuiRefreshSession(new ModGuiMultiplayer(null));
+				//screen = new GuiRefreshSession(new ModGuiMultiplayer(null));
+				e.printStackTrace();
 			} catch (IllegalAccessException e) {
 				e.printStackTrace();
 			}
